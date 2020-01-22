@@ -6,24 +6,35 @@
     tools:context="com.example.lesson3.MainActivity">
 
     <TextView
-        android:id="@+id/display_text_view"
+        android:id="@+id/TitleTeamA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="Team A"
         android:textSize="45sp" />
 
     <TextView
-        android:id="@+id/display_text_view_2"
+        android:id="@+id/Score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
+        android:text="0"
         android:textSize="45sp" />
 
-    <TextView
-        android:id="@+id/display_text_view_3"
+    <Button
+        android:id="@+id/ThreePoints"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="45sp" />
+        android:text="+3 Points" />
+
+    <Button
+        android:id="@+id/TwoPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+2 Points" />
+
+    <Button
+        android:id="@+id/OnePoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1 Points" />
 
 </LinearLayout>
