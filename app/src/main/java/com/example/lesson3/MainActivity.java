@@ -19,5 +19,5 @@ public class MainActivity extends AppCompatActivity {
      * how these work yet. We'll be covering them in lesson 3.
      */
 
-    
+
 }
