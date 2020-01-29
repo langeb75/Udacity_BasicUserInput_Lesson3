@@ -19,10 +19,20 @@ public class MainActivity extends AppCompatActivity {
     public void addThreePointsTeamA(View v) {
         displayForTeamA(3);
     }
-
+    /**
+     * Adds Two Points to Team A's Score
+     */
     public void addTwoPointsTeamA(View view) {
         displayForTeamA(2);
     }
+
+    /**
+     * Adds One Point to Team A's Score
+     */
+    public void addOnePointTeamA(View view) {
+        displayForTeamA(1);
+    }
+
 
      /**
      * Displays the given score for Team A.
@@ -31,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
+
 
 
 }
