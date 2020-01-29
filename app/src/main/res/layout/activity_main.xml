@@ -6,7 +6,7 @@
     tools:context="com.example.lesson3.MainActivity">
 
     <TextView
-        android:id="@+id/TitleTeamA"
+        android:id="@+id/team_a_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Team A"
@@ -15,7 +15,7 @@
         android:padding="4dp"/>
 
     <TextView
-        android:id="@+id/Score"
+        android:id="@+id/team_a_score"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="0"
@@ -24,14 +24,14 @@
         android:padding="4dp"/>
 
     <Button
-        android:id="@+id/ThreePoints"
+        android:id="@+id/three_points_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="+3 Points"
         android:layout_margin="8dp"/>
 
     <Button
-        android:id="@+id/TwoPoints"
+        android:id="@+id/two_points_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="+2 Points"

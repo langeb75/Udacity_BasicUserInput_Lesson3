@@ -10,14 +10,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // PASTE CODE YOU WANT TO TEST HERE
-
+        displayForTeamA(8);
     }
 
-    /**
-     * Display methods that allow the text to appear on the screen. Don't worry if you don't know
-     * how these work yet. We'll be covering them in lesson 3.
+     /**
+     * Displays the given score for Team A.
      */
-
-
+    public void displayForTeamA(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.team_a_score);
+        scoreView.setText(String.valueOf(score));
+    }
 }
