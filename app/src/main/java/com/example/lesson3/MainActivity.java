@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(3);
     }
 
+    public void addTwoPointsTeamA(View view) {
+        displayForTeamA(2);
+    }
 
      /**
      * Displays the given score for Team A.
@@ -28,5 +31,6 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
+
 
 }
