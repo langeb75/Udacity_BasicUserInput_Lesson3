@@ -1,6 +1,7 @@
 package com.example.lesson3;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,8 +11,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        displayForTeamA(8);
     }
+
+    /**
+     * Adds Three Points to Team A's Score
+     */
+    public void addThreePointsTeamA(View v) {
+        displayForTeamA(3);
+    }
+
 
      /**
      * Displays the given score for Team A.
@@ -20,4 +28,5 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
+
 }
